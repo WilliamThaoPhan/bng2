@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+*{box-sizing: border-box}
+.comfortaa{
+	font-family: "Comfortaa", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+}
+body{
+	font-family: "Comfortaa", sans-serif;font-size: 16px;color: #40A2D8; margin: 30 0 0 0px;padding: 0px;width: 100%
+}
+h1,h2{
+	font-family: "Comfortaa", sans-serif;color: #0B60B0; margin: 0
+}
+header{
+	width: 100%;height: 100px; background-color: #FFFFFF; margin-bottom: 30px;color: #0B60B0
+}
+.logo{
+	float: left; margin: 10px
+}
+.icons{
+	margin-right: 10px; justify-content: flex-end; align-items: center;text-align: center;float: right;
+}
+.icons a{ color: #0B60B0}
+.icon{
+	height: 40px; width: 30%;top: -10%;left:35%; position: absolute;display: flex; justify-content: space-between;transition: all 0.5s
+}
+.icon a{
+	color: #0B60B0; display: flex; justify-content: center; align-items: center;width: 30px;height: 30px;background-color: #F0EDCF;border-radius: 30%;
+}
+.icon a:hover{
+	background-color: #0B60B0; color: #F0EDCF
+}
+.vien{
+	position: relative;overflow: hidden
+}
+.vien:hover .icon{
+	top:55%
+}
+.icons-2{
+	justify-content: flex-start; align-items: flex-start;text-align: start;float: left;color: #0B60B0
+}
+.useful-link{
+	position: relative
+}
+.useful-link:hover{
+color:#40A2D8
+}
+.banner{
+	width: 100%;height: 650px; margin: 0 auto
+}
+.img-100{
+	width: 100%;height: 60px;
+}
+main{
+	width: 100%;min-height: 2000px; margin-top: 30px;
+}
+
+.content{
+	width: 100%;padding: 15px;background-color: #FFFFFF;min-height: 500px; margin: 0 auto;
+}
+.content-2{
+	width: 50%;background-color: #FFFFFF; margin: 0 auto;display: block;
+}
+footer{
+	margin-top: 30px; width: 100%;min-height: 200px;background-color:#F0EDCF; font-family:"Font-awesome"; font-family: "Comfortaa", sans-serif;
+}
+.video{
+	margin: 0 auto
+}
+.menu{
+	padding-top: 50px; text-align: center; align-content: center;
+}
+.menu ul{
+	margin:0 0 0 0;padding: 0;list-style: none;display:flex; float: right;font-size: 13px; border-radius: 30px
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; color: #0B60B0; text-align: center;border-radius: 30px
+}
+.menu ul li a:hover{
+	background-color: #F0EDCF; color: #40A2D8; border-bottom:  1px solid #40A2D8;border-radius: 30px
+}
+.fa-heart:hover{
+   	color:#40A2D8;
+}
+.fa-shopping-cart:hover{
+	color:#40A2D8;
+}
+.dotted{
+border-bottom: 1px dashed #40A2D8;
+line-height:15px;width: auto
+}
+.caption{
+position: absolute; width: 50%; text-align: center;left: 30%; top: 30%; color: #0B60B0;
+
+}
+.tieu-de{
+font-size: 30px;font-weight: bold
+}
+/*slider*/
+
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+/*phan mau cho dots*/
+*#slide .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#0B60B0;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+#slide .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background: #F0EDCF; }*
+/*phan mau cho nav*/
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #0B60B0
+}
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#F0EDCF;
+      text-decoration: none; }
+
+.text-list{
+color: #0B60B0; font-family: "Comfortaa", sans-serif;
+}
+.text-small{
+color: #40A2D8;font-family: "Comfortaa", sans-serif;font-size: 13px
+}
+.bo-goc{
+	border-radius: 60px 0px 0px 0px; 
+}
+.bg-trang{
+	background-color: #FFFFFF
+}
+.label{
+	font-size: 10px;
+}
+.btn{
+	padding: 10px; margin: 10px;background-color: #0B60B0; color: white;border-radius: 30px
+}
+.btn:hover{
+	padding: 10px;margin: 15px; background-color: #F0EDCF; color: #0B60B0;border-radius: 30px
+}
+.term{
+	font-size: 10px; color: #40A2D8
+}
+.term:hover{
+	font-size: 10px; color: #0B60B0
+}
+.map-border{
+width:100%; max-height: 80px; padding:5px ;color:#0B60B0;border-radius: 10px
+}
+#feature{
+	width: 100%;min-height: 600px; background-image:url("../Images/featurebg33.jpg");background-repeat: no-repeat; background-size:cover;background-position: bottom center
+}
+.gach-chan{
+	border-bottom: 2px solid #0B60B0
+}
+.pt-30{
+	padding-top:30px;
+}
+.vien-trang{
+	width: 100%;min-height: 100px;border: 3px solid #FFFFFF; padding: 20px;border-radius: 30px
+}
+#feature a{
+	text-decoration: none;color: #40A2D8;
+}
+#feature a:hover{
+	color: #0B60B0
+}
+.shadow{
+	border: 1px solid #40A2D8;width: 100%; min-height: 300px;box-shadow: 5px 5px 5px #F0EDCF; padding: 30px; border-radius: 30px
+}
+.form-control{
+	width: 100%; align-items: center; margin-bottom: 10px
+}
